@@ -319,3 +319,8 @@ a {
 
 /* Poster End */
 
+html {
+    max-width: 1440px;
+    cursor:url('Assets/rabbit.png'),auto;
+    user-select: none;
+}
