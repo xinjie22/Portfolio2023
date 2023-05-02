@@ -1,0 +1,321 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* BACKGROUND COLOR START */
+.home_bg {
+    background-color: #E7C1BA;
+
+}
+
+.about_bg {
+    background-color: #F2CCFF;
+
+}
+
+.artwork_bg {
+    background-color: #E7C1BA;
+    padding-bottom: 1300px;
+}
+
+.contact_bg {
+    background-color: #D0D7FC;
+
+}
+
+.project1_bg {
+    background-color: #EACDFB
+
+}
+/* BACKGROUND COLOR END */
+
+
+/* FONT START */
+body {
+    font-family: "Anek Malayalam", sans-serif;
+    
+}
+/* FONT END */
+
+
+/* COLOR START */
+#P50 {
+    color: #F7C6C6;
+}
+
+#P100 {
+    color: #F4AEAE;
+}
+
+#P150 {
+    color: #F58880;
+}
+
+#B50 {
+    color: #743C3B;
+}
+
+#B100 {
+    color: #46141C;
+}
+
+/* COLOR END */
+
+
+/* DIV BOX Color Start */
+#BoxCategory_1 {
+    background-color: #00f583;
+}
+
+#BoxCategory_2 {
+    background-color: #4100f5;
+}
+
+#BoxCategory_3 {
+    background-color: #f5008b;
+}
+
+#BoxCategory_4 {
+    background-color: #e9f500;
+}
+
+#BoxCategory_5 {
+    background-color: #8300f5;
+}
+
+/* DIV BOX Color End */
+
+
+/* Button Start */
+.bttn_style {
+    box-sizing: border-box;
+    font-size: 32px;
+
+    position: absolute;
+    width: 284px;
+    height: 78px;
+
+
+    background: #F4AEAE;
+    border: 7px solid #000000;
+    border-radius: 120px;
+}
+
+/* Button End */
+
+
+/* Typograhpy Start */
+h1 {
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 370px;
+    line-height: 716px;
+    color: #FFFFFF;
+
+}
+
+h2 {
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 700px;
+    color: #B5B4FF;
+
+}
+
+h3 {
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    color: #FFFFFF;
+    display: block;
+}
+
+h4 {
+    width: 923px;
+     height: 127px;
+    left: calc(50% - 923px/2 - 66.5px);
+    top: 155px;
+
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 143px;
+
+    color: #B5B4FF;
+
+}
+
+h5{
+    font-size : 36px;
+    margin-bottom : 0px;
+    font-weight : 800;
+    line-height: 44px;
+    margin-top : 5px;
+}
+
+p{
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-size: 32px;
+    word-spacing: 5px;
+    font-weight: 400;
+    margin-top : 0px;
+    margin-bottom : 20px;
+    line-height: 46px;
+    color:#9B6D8B;
+}
+/* Typograhpy End */
+
+
+/* Adjust Start */
+.flex-container > div {
+
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+/* Adjust End */
+
+
+.abtLabel{
+    width: 800px;
+height: 114px;
+
+
+font-family: 'Anek Malayalam';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 138px;
+
+color: #FFFFFF;
+
+}
+
+
+/* Typograhpy Artwork Start */
+.Artwork_Header {
+    position: absolute;
+    width: 927px;
+    height: 267px;
+    left: calc(50% - 927px/2 + 197.5px);
+    top: 52px;
+
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 286px;
+    display:inline-flex;
+
+    color: #743C3B;
+}
+
+/* Typograhpy Artwork End */
+
+
+/* CONTACT Start */
+#header-container {
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+}
+
+#phone-container {
+    position: relative;
+    text-align: center;
+}
+
+span {
+    color: #78A2D2;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* CONTACT End */
+
+/* Typograhpy Contact Start */
+.Contact_Header {
+    position: absolute;
+    width: 641px;
+    height: 132px;
+    left: calc(50% - 641px/2 - 119.5px);
+    top: 60px;
+    color: #B5B4FF;
+
+    font-family: 'Anek Malayalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 215px;
+    display: flex;
+    align-items: center;
+}
+/* Typograhpy Contact End */
+
+/* Project Start */
+#header-container {
+    position: relative;
+    display:flex;
+    margin-left:47px;
+}
+
+#header-container2 {
+    position: relative;
+    display:flex;
+    margin-left:100px;
+}
+
+#close-button {
+    margin-left : auto;
+    margin-top :3%;
+}
+
+
+#description {
+    position : relative;
+    margin: 0px 50px 0px 50px;
+}
+
+#description2 {
+    position : relative;
+    margin: 30px 100px 0px 100px;
+}
+/* Project End */
+
+
+/* Poster Start */
+#poster1 {
+    position : relative;
+    display:flex;
+    margin-left : 47px;
+}
+
+#poster2 {
+    position : relative;
+    display:flex;
+    margin-left : 47px;
+    margin-top: 21px;
+}
+
+#poster3 {
+    position : relative;
+    display:flex;
+    margin-left : 100px;
+}
+
+/* Poster End */
+
