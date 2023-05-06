@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth;
-    max-width: 1440px;
     cursor:url('Assets/rabbit.png'),auto;
-    user-select: none;
   }
+
+button:hover{
+    cursor: url('Assets/rabbit.png'), auto;
+}
 
 /* BACKGROUND COLOR START */
 .home_bg {
