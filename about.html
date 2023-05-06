@@ -73,7 +73,7 @@
          <!-- CONTENT 3.1 LEFT END -->
         
          <!-- CONTENT 3.1 RIGHT START -->
-         <img src="Assets/picture.png" alt="Instruction" style="margin-left: 830px;margin-top: -604px;"id="parkyou">
+         <img src="Assets/picture.png" alt="Instruction" style="margin-left: 830px;margin-top: -604px;" id="parkyou">
          <!-- CONTENT 3.1 RIGHT END -->
     
     <!-- CONTENT 3 END -->
@@ -92,7 +92,7 @@
                 <a href="https://www.facebook.com/xxnjieee"><img src="Assets/facebookiconwhite.png" width="80" height="80" style="margin:10px 20px 0px 20px;"></a>
                 <a href="https://www.instagram.com/xxnjieee/"><img src="Assets/instagramiconwhite.png" width="80" height="80" style="margin:10px 20px 0px 20px;"></a>
                 <a href="https://wa.me/0182013123?text=Hello%20there!"><img src="Assets/whatsappiconwhite.png" width="80" height="80" style="margin:10px 20px 0px 20px;"></a>
-                <img src="Assets/linkiconwhite.png" width="80" height="60" style="margin:10px 20px 0px 20px;">
+                <img src="Assets/linkiconwhite.png" data-link="https://xinjie22.github.io/Portfolio2023/" width="80" height="60" style="margin:10px 20px 0px 20px;" id="iconwhite" onclick="copyLink(this)">
             </div>
             <div style="text-align:center;color:white;">
                 <hr style="width:43%;border: 3px solid white;border-radius: 5px;">
@@ -125,6 +125,18 @@
         </div>
         <!-- SIDE NAV END -->
  
+        <script>
+             function copyLink(img) {
+                var link = img.getAttribute('data-link');
+                navigator.clipboard.writeText(link).then(function() {
+                alert("Copied link");
+            }, function() {
+                console.error('Failed to copy link');
+            });
+            }
+            </script>
+ 
+
 
  </body>
 </html>
